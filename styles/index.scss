@@ -1,4 +1,17 @@
+@use "mixins" as *;
+
+// FONTS
+@font-face {
+  font-family: "Kosugi";
+  src: url(../assets/fonts/Kosugi/Kosugi-Regular.ttf) format(truetype);
+  font-weight: 400;
+}
+
+// GENERAL
+
+//HERO
 h1 {
-  color: red;
+  color: brown;
   font-size: 40px;
+  font-family: "Kosugi", sans-serif;
 }
