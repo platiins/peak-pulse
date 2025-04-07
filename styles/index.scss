@@ -9,9 +9,44 @@
 
 // GENERAL
 
+body {
+  font-family: "Kosugi", sans-serif;
+
+  .navbar {
+    background-color: #668066;
+  }
+
+  main {
+    padding: 70px 20px 50px;
+    margin-bottom: 0px;
+
+    .hero-section {
+      @include flex(column, end, center, 15px);
+      height: 93vh;
+      padding: 0 0 90px;
+    }
+  }
+
+  .footer-section {
+    @include flex(row, space-between, center, 10px);
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(102, 128, 102);
+    width: 100%;
+    padding: 3px 20px;
+    font-size: 12px;
+
+    p {
+      margin: 0;
+    }
+  }
+}
+
 //HERO
 h1 {
-  color: brown;
+  color: #7a1515;
   font-size: 40px;
-  font-family: "Kosugi", sans-serif;
+  text-align: center;
 }

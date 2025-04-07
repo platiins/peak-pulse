@@ -3,8 +3,46 @@
   src: url(../assets/fonts/Kosugi/Kosugi-Regular.ttf) format(truetype);
   font-weight: 400;
 }
-h1 {
-  color: brown;
-  font-size: 40px;
+body {
   font-family: "Kosugi", sans-serif;
+}
+body .navbar {
+  background-color: #668066;
+}
+body main {
+  padding: 70px 20px 50px;
+  margin-bottom: 0px;
+}
+body main .hero-section {
+  display: flex;
+  flex-flow: column;
+  justify-content: end;
+  align-items: center;
+  gap: 15px;
+  height: 93vh;
+  padding: 0 0 90px;
+}
+body .footer-section {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(102, 128, 102);
+  width: 100%;
+  padding: 3px 20px;
+  font-size: 12px;
+}
+body .footer-section p {
+  margin: 0;
+}
+
+h1 {
+  color: #7a1515;
+  font-size: 40px;
+  text-align: center;
 }/*# sourceMappingURL=index.css.map */
